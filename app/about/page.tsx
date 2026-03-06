@@ -140,7 +140,7 @@ export default async function AboutPage() {
                         {[
                             { icon: MapPin, text: "Nigeria" },
                             { icon: Calendar, text: "3+ Years Exp." },
-                            { icon: Coffee, text: "Open to Relocation" },
+                            { icon: Coffee, text: "Open to Remote Work" },
                         ].map(({ icon: Icon, text }) => (
                             <span
                                 key={text}
