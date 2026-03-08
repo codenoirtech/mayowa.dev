@@ -4,15 +4,15 @@ import Link from "next/link"
 // ─── Static Data ─────────────────────────────────────────────────────────────
 const testimonials = [
     {
-        name: "Sarah Jenkins",
-        role: "Product Manager at TechFlow",
+        name: "Dr. Susan Akinkurolere-Davies",
+        role: "CEO, The New Story Foundation",
         content: "Mayowa is an exceptional engineer. He took our vague requirements and turned them into a blazing fast, scalable application. His attention to detail in both UI/UX and backend architecture is rare to find.",
         rating: 3,
         delay: "delay-100",
     },
     {
-        name: "David Adeleke",
-        role: "Founder, StartupX",
+        name: "Francis Adeniran",
+        role: "CEO, MoonJoin Technologies",
         content: "Working with Favour was a game changer for us. He not only wrote clean and maintainable code but also advised us on architectural decisions that saved us weeks of technical debt. Highly recommended!",
         rating: 5,
         delay: "delay-200",
