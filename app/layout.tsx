@@ -20,20 +20,57 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: "Favour Mayowa | Full-Stack Engineer",
+  metadataBase: new URL("https://mayowa.dev"),
+  title: {
+    default: "Favour Mayowa | Core Software Engineer & Full-Stack Developer",
+    template: "%s | Favour Mayowa"
+  },
   description:
-    "Full-Stack developer with 3+ years of experience in JavaScript, TypeScript, React, Vue, Next.js, Node.js, and more. Specializing in high-performance web applications and scalable architecture.",
-  keywords: ["developer", "frontend developer", "backend developer", "portfolio", "full-stack engineer", "React expert", "Next.js", "Node.js", "TypeScript"],
-  authors: [{ name: "Favour Mayowa" }],
+    "Favour Mayowa is a Core Software Engineer and Full-Stack Developer with 3+ years of experience specializing in high-performance web applications, scalable system architecture, and modern TypeScript technologies.",
+  keywords: [
+    "Core Software Engineer",
+    "Full-Stack Developer",
+    "Senior Software Engineer",
+    "Frontend Engineer",
+    "Backend Engineer",
+    "TypeScript",
+    "React Expert",
+    "Next.js Specialist",
+    "Node.js Developer",
+    "Vue.js",
+    "Scalable Architecture",
+    "System Design",
+    "Web Performance Optimization",
+    "Favour Mayowa portfolio"
+  ],
+  authors: [{ name: "Favour Mayowa", url: "https://mayowa.dev" }],
+  creator: "Favour Mayowa",
   openGraph: {
-    title: "Favour Mayowa | Full-Stack Engineer",
-    description: "Building high-performance, scalable web applications with modern technologies.",
+    title: "Favour Mayowa | Core Software Engineer & Full-Stack Developer",
+    description: "Building scalable backend systems and high-performance frontend applications with modern web technologies.",
+    url: "https://mayowa.dev",
+    siteName: "Favour Mayowa | Portfolio",
     type: "website",
+    locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Favour Mayowa | Full-Stack Engineer",
-    description: "Building high-performance, scalable web applications.",
+    title: "Favour Mayowa | Core Software Engineer",
+    description: "Building high-performance, scalable web applications with TypeScript, Next.js, and Node.js.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  alternates: {
+    canonical: "https://mayowa.dev",
   },
 }
 

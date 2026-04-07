@@ -26,6 +26,13 @@ const testimonials = [
     }
 ]
 
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Testimonials",
+  description: "Read testimonials from clients and colleagues about working with Favour Mayowa on full-stack web development projects.",
+}
+
 export default function TestimonialsPage() {
     return (
         <div className="min-h-screen pb-32 overflow-x-hidden pt-16">

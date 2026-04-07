@@ -99,6 +99,13 @@ const skills = [
     { label: "DevOps & Cloud", pct: 65, color: "bg-orange-400" },
 ]
 
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "About",
+  description: "Learn more about Favour Mayowa, a Core Software Engineer with 3+ years of experience specializing in highly scalable architecture and full-stack web development.",
+}
+
 // ─── Page ──────────────────────────────────────────────────────────────────────
 export default async function AboutPage() {
     const experiences = await getExperience()
